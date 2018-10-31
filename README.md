@@ -12,6 +12,7 @@ Save as new file
 chmod +x filename
 ./filename > new.txt
 
+
 copy and paste into your ASA config
 
 
