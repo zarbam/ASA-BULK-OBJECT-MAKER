@@ -1,0 +1,10 @@
+#!/bin/bash
+# Program name: ASA Object Maker
+# Edit description first
+
+cat ip_list.txt |  while read output
+do
+        echo object network obj-$output
+        echo host $output
+        echo description "Add description without quotes" 
+done
